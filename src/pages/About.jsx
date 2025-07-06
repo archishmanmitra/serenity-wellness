@@ -11,9 +11,9 @@ import { Button } from '@/components/ui/button';
 
 export default function About() {
   const stats = [
-    { number: "500+", label: "Happy Clients", icon: Users },
-    { number: "10+", label: "Centers Across India", icon: Globe },
-    { number: "1000+", label: "Sessions Conducted", icon: Star },
+    { number: "50+", label: "Happy Clients", icon: Users },
+    { number: "3+", label: "Centers Across India", icon: Globe },
+    { number: "500+", label: "Sessions Conducted", icon: Star },
     { number: "95%", label: "Client Satisfaction", icon: Award }
   ];
 
@@ -145,7 +145,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="w-16 h-16 bg-gradient-to-r from-zinc-500 to-sky-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-gradient-to-r from-sky-500 to-blue-400 rounded-full flex items-center justify-center mx-auto mb-4">
                   <stat.icon className="w-8 h-8 text-white" />
                 </div>
                 <div className="text-3xl font-bold text-sage-800 mb-2">{stat.number}</div>

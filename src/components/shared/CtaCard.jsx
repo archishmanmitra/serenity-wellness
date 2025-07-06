@@ -91,7 +91,7 @@ const CtaCard = () => {
                   viewport={{ once: true }}
                   className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"
                 >
-                  <div className="text-3xl font-bold text-white mb-2">5000+</div>
+                  <div className="text-3xl font-bold text-white mb-2">50+</div>
                   <div className="text-sage-100 text-sm font-medium">Happy Clients</div>
                 </motion.div>
                 
@@ -102,7 +102,7 @@ const CtaCard = () => {
                   viewport={{ once: true }}
                   className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"
                 >
-                  <div className="text-3xl font-bold text-white mb-2">15+</div>
+                  <div className="text-3xl font-bold text-white mb-2">3+</div>
                   <div className="text-sage-100 text-sm font-medium">Years Experience</div>
                 </motion.div>
                 
@@ -113,7 +113,7 @@ const CtaCard = () => {
                   viewport={{ once: true }}
                   className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"
                 >
-                  <div className="text-3xl font-bold text-white mb-2">50+</div>
+                  <div className="text-3xl font-bold text-white mb-2">10+</div>
                   <div className="text-sage-100 text-sm font-medium">Programs</div>
                 </motion.div>
                 
@@ -124,7 +124,7 @@ const CtaCard = () => {
                   viewport={{ once: true }}
                   className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center"
                 >
-                  <div className="text-3xl font-bold text-white mb-2">4.9★</div>
+                  <div className="text-3xl font-bold text-white mb-2">4.8★</div>
                   <div className="text-sage-100 text-sm font-medium">Client Rating</div>
                 </motion.div>
               </div>
