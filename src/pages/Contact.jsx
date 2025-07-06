@@ -223,7 +223,7 @@ export default function Contact() {
                               <Button
                                 key={time}
                                 variant={selectedTime === time ? "default" : "outline"}
-                                className={`transition-colors ${selectedTime === time ? 'bg-sky-600 hover:bg-sky-700 mt-1 shadow-sm focus:ring-2 focus:ring-sage-400 focus:outline-none border-0' : 'mt-1 shadow-sm focus:ring-2 focus:ring-sage-400 focus:outline-none border-0'}`}
+                                className={`transition-colors ${selectedTime === time ? 'bg-blue-400 hover:bg-blue-500 mt-1 shadow-sm focus:ring-2 focus:ring-sage-400 focus:outline-none border-0' : 'mt-1 shadow-sm focus:ring-2 focus:ring-sage-400 focus:outline-none border-0'}`}
                                 onClick={() => setSelectedTime(time)}
                               >
                                 {time}
